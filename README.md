@@ -128,28 +128,3 @@ vi ikke funnet ut av dette problemet. Derfor anbefaler vi at selve programmet st
 slike problemer. Vi har testet programmet underveis og aldri opplevd et slikt problem. Men når vi kjørte den siste dagen før
 innlevering oppdaget vi at det var noe som ikke stemte. 
 
-* Vi hadde lyst til å implementere en abstrakt klasse på serverens nivå som skulle inneholde 
-felles funksjonalitet for de ulike controllerne. Fordi når man bygger et svar er det veldig mye som går igjen 
-som vi kunne ha implementert i en abstrakt klasse og gjenbrukt det. 
-
-* Når det gjelder tester har vi prøvd så godt vi kan å ha gode nok tester men 
-vi har ikke implementert tester for views. Grunnen til det er at det krevdes mye tid og operasjon 
-mot forskjellige dao'er og controllers. Disse har allerede tester knyttet til seg så vi følte at det
-var rimelig beskyttet mot feil, selv om det ikke var optimalt. 
-
-* Vi kunne ha commited og pushet oftere til github. Grunnen til at vi ikke har pushet så veldig mye er at 
-vi ofte har sittet sammen og parprogrammert, så behovet har ikke vært der. 
-Vi kunne vekslet mellom pc'er litt mer men vanlgte ikke å gjøre det altfor ofte, fordi vi valgte
-et tastatur oppsett slik at det skulle bli enklere å arbeide. 
-
-
-## Evaluering fra annen gruppe
-* https://github.com/Westerdals/pgr203-2019-eksamen-guberArmin/issues/4
-* https://github.com/Westerdals/pgr203-2019-eksamen-guberArmin/issues/3
-* https://github.com/Westerdals/pgr203-2019-eksamen-guberArmin/issues/2
-* https://github.com/Westerdals/pgr203-2019-eksamen-guberArmin/issues/1
-## Evaluering gitt til annen gruppe
-* https://github.com/Westerdals/pgr203-2019-eksamen-Leifhaa/issues/4
-* https://github.com/Westerdals/pgr203-2019-eksamen-Leifhaa/issues/3
-* https://github.com/Westerdals/pgr203-2019-eksamen-Leifhaa/issues/2
-* https://github.com/Westerdals/pgr203-2019-eksamen-Leifhaa/issues/1
