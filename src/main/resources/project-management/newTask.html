@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Create new task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="POST" action="/taskCreator">
+    <label>Enter new description: <input type="text" name="description" /></label>
+    <label>Enter status: <input type="text" name="status" /></label>
+    <button onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; ">Create</button>
+</form>
+<div>
+    <a href=".">Return to front page</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Project management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>All workers with tasks</h1>
+
+
+<form id = "workerTask"></form>
+<div>
+    <a href=".">Return to front page</a>
+</div>
+</body>
+<script>
+    fetch("/taskToWorkerView")
+        .then(function (response) {
+            return response.text();
+        }).then(function (text) {
+        document.getElementById("workerTask").innerHTML = text;
+    });
+</script>
+</html>

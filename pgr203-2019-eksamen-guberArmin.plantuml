@@ -1,0 +1,356 @@
+@startuml
+
+title __PROJECT-MANAGMENT's Class Diagram__\n
+
+  namespace no.kristiania.project.management.database {
+    class no.kristiania.project.management.database.ProjectManagementServer {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.http {
+      abstract class no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.http {
+      class no.kristiania.project.management.database.controllers.http.ProjectHttpController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.http {
+      class no.kristiania.project.management.database.controllers.http.TaskHttpController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.http {
+      class no.kristiania.project.management.database.controllers.http.WorkerHttpController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.http {
+      class no.kristiania.project.management.database.controllers.http.WorkerTaskHttpController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.http {
+      class no.kristiania.project.management.database.controllers.http.WorkerToProjectHttpController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.update {
+      abstract class no.kristiania.project.management.database.controllers.update.AbstractDatabaseUpdateController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.update {
+      class no.kristiania.project.management.database.controllers.update.CookieWorkerTaskUpdateController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.update {
+      class no.kristiania.project.management.database.controllers.update.ProjectUpdateController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.update {
+      class no.kristiania.project.management.database.controllers.update.TaskUpdateController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.views {
+      abstract class no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.views {
+      class no.kristiania.project.management.database.controllers.views.AllWorkersTasksViewController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.views {
+      class no.kristiania.project.management.database.controllers.views.CookieBasedWorkerTasksViewController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.views {
+      class no.kristiania.project.management.database.controllers.views.OneWorkerTasksViewController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.views {
+      class no.kristiania.project.management.database.controllers.views.ProjectEditorViewController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace controllers.views {
+      class no.kristiania.project.management.database.controllers.views.TaskEditorViewController {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      abstract class no.kristiania.project.management.database.dao.AbstractDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.CookiesDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.ProjectDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.ProjectWorkerDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.TaskDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.WorkerDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.WorkerTaskDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace dao {
+      class no.kristiania.project.management.database.dao.WorkersTasksViewDao {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.Cookie {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.Project {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.ProjectWorker {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.Task {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.Worker {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.WorkerTask {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.database {
+    namespace tabels {
+      class no.kristiania.project.management.database.tabels.WorkersTasksView {
+      }
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    class no.kristiania.project.management.server.EchoHttpController {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    class no.kristiania.project.management.server.FileHttpController {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    class no.kristiania.project.management.server.HttpClient {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    class no.kristiania.project.management.server.HttpClientResponse {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    interface no.kristiania.project.management.server.HttpController {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    class no.kristiania.project.management.server.HttpMessage {
+    }
+  }
+  
+
+  namespace no.kristiania.project.management.server {
+    class no.kristiania.project.management.server.HttpServer {
+    }
+  }
+  
+
+  no.kristiania.project.management.database.ProjectManagementServer o-- no.kristiania.project.management.server.HttpServer : server
+  no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController .up.|> no.kristiania.project.management.server.HttpController
+  no.kristiania.project.management.database.controllers.http.ProjectHttpController -up-|> no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController
+  no.kristiania.project.management.database.controllers.http.ProjectHttpController o-- no.kristiania.project.management.database.dao.ProjectDao : projectDao
+  no.kristiania.project.management.database.controllers.http.TaskHttpController -up-|> no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController
+  no.kristiania.project.management.database.controllers.http.TaskHttpController o-- no.kristiania.project.management.database.dao.TaskDao : taskDao
+  no.kristiania.project.management.database.controllers.http.WorkerHttpController .up.|> no.kristiania.project.management.server.HttpController
+  no.kristiania.project.management.database.controllers.http.WorkerHttpController -up-|> no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController
+  no.kristiania.project.management.database.controllers.http.WorkerHttpController o-- no.kristiania.project.management.database.dao.WorkerDao : workerDao
+  no.kristiania.project.management.database.controllers.http.WorkerTaskHttpController -up-|> no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController
+  no.kristiania.project.management.database.controllers.http.WorkerTaskHttpController o-- no.kristiania.project.management.database.dao.WorkerTaskDao : workerTaskDao
+  no.kristiania.project.management.database.controllers.http.WorkerToProjectHttpController -up-|> no.kristiania.project.management.database.controllers.http.AbstractDatabaseHttpController
+  no.kristiania.project.management.database.controllers.http.WorkerToProjectHttpController o-- no.kristiania.project.management.database.dao.ProjectWorkerDao : projectWorkerDao
+  no.kristiania.project.management.database.controllers.update.AbstractDatabaseUpdateController .up.|> no.kristiania.project.management.server.HttpController
+  no.kristiania.project.management.database.controllers.update.CookieWorkerTaskUpdateController -up-|> no.kristiania.project.management.database.controllers.update.AbstractDatabaseUpdateController
+  no.kristiania.project.management.database.controllers.update.CookieWorkerTaskUpdateController o-- no.kristiania.project.management.database.dao.CookiesDao : cookiesDao
+  no.kristiania.project.management.database.controllers.update.ProjectUpdateController -up-|> no.kristiania.project.management.database.controllers.update.AbstractDatabaseUpdateController
+  no.kristiania.project.management.database.controllers.update.ProjectUpdateController o-- no.kristiania.project.management.database.dao.ProjectDao : projectDao
+  no.kristiania.project.management.database.controllers.update.TaskUpdateController -up-|> no.kristiania.project.management.database.controllers.update.AbstractDatabaseUpdateController
+  no.kristiania.project.management.database.controllers.update.TaskUpdateController o-- no.kristiania.project.management.database.dao.TaskDao : taskDao
+  no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController .up.|> no.kristiania.project.management.server.HttpController
+  no.kristiania.project.management.database.controllers.views.AllWorkersTasksViewController -up-|> no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController
+  no.kristiania.project.management.database.controllers.views.AllWorkersTasksViewController o-- no.kristiania.project.management.database.dao.WorkersTasksViewDao : workerTaskViewDao
+  no.kristiania.project.management.database.controllers.views.CookieBasedWorkerTasksViewController -up-|> no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController
+  no.kristiania.project.management.database.controllers.views.CookieBasedWorkerTasksViewController o-- no.kristiania.project.management.database.dao.CookiesDao : cookiesDao
+  no.kristiania.project.management.database.controllers.views.CookieBasedWorkerTasksViewController o-- no.kristiania.project.management.database.dao.WorkersTasksViewDao : workerTaskViewDao
+  no.kristiania.project.management.database.controllers.views.OneWorkerTasksViewController -up-|> no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController
+  no.kristiania.project.management.database.controllers.views.OneWorkerTasksViewController o-- no.kristiania.project.management.database.dao.WorkersTasksViewDao : workerTaskViewDao
+  no.kristiania.project.management.database.controllers.views.ProjectEditorViewController -up-|> no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController
+  no.kristiania.project.management.database.controllers.views.ProjectEditorViewController o-- no.kristiania.project.management.database.dao.ProjectDao : projectDao
+  no.kristiania.project.management.database.controllers.views.TaskEditorViewController -up-|> no.kristiania.project.management.database.controllers.views.AbstractDatabaseViewController
+  no.kristiania.project.management.database.controllers.views.TaskEditorViewController o-- no.kristiania.project.management.database.dao.TaskDao : taskDao
+  no.kristiania.project.management.database.dao.CookiesDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.database.dao.ProjectDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.database.dao.ProjectWorkerDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.database.dao.TaskDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.database.dao.WorkerDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.database.dao.WorkerTaskDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.database.dao.WorkersTasksViewDao -up-|> no.kristiania.project.management.database.dao.AbstractDao
+  no.kristiania.project.management.server.EchoHttpController .up.|> no.kristiania.project.management.server.HttpController
+  no.kristiania.project.management.server.FileHttpController .up.|> no.kristiania.project.management.server.HttpController
+  no.kristiania.project.management.server.FileHttpController o-- no.kristiania.project.management.server.HttpServer : httpServer
+  no.kristiania.project.management.server.HttpClientResponse -up-|> no.kristiania.project.management.server.HttpMessage
+  no.kristiania.project.management.server.HttpServer -up-|> no.kristiania.project.management.server.HttpMessage
+  no.kristiania.project.management.server.HttpServer o-- no.kristiania.project.management.database.dao.CookiesDao : cookiesDao
+  no.kristiania.project.management.server.HttpServer o-- no.kristiania.project.management.server.HttpController : defaultController
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

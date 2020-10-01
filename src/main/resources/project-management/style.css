@@ -1,0 +1,37 @@
+body {
+    background-color: lime;
+    position:absolute;
+}
+
+a {
+    display: inline-block;
+    top:30px;
+    font: bold 16px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    margin:23px;
+    padding: 4px;
+    border-top: 3px solid red;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+div >div{
+    width:auto;
+    height: auto;
+    display: inline-block;
+    padding:10px;
+    margin: 10px;
+    border: 3px solid black;
+}

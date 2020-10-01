@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Create new project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Create new project</h1>
+
+<form method="POST" action="/projectCreator">
+    <label>Project name: <input type="text" name="name" /></label>
+    <button onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; ">Create</button>
+</form>
+<div>
+    <a href=".">Return to front page</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Change default cookie worker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<form method="POST" action="/updateCookieWorker">
+    <label for="workerID">Project members</label><select name="ID" id="workerID"></select>
+    <input type='text' hidden name='goTo' value='/listCookieWorker.html'>
+    <button onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; ">Make my default worker</button>
+</form>
+<div>
+    <a href=".">Return to front page</a>
+</div>
+</body>
+<script>
+    fetch("/projectMembers")
+        .then(function (response) {
+            return response.text();
+        }).then(function (text) {
+        document.getElementById("workerID").innerHTML = text;
+    });
+</script>
+</html>

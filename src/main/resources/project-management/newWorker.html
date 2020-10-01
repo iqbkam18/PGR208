@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Add project member | KristianiaProject</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Add project worker</h1>
+
+<form method="POST" action="/projectMembers">
+    <label>Member name: <input type="text" name="name" /></label>
+    <label>Member last name: <input type="text" name="lastName" /></label>
+    <label>Member address: <input type="text" name="address" /></label>
+    <button onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; ">Add</button>
+</form>
+<div>
+    <a href=".">Return to front page</a>
+</div>
+</body>
+</html>

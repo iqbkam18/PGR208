@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects overview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="GET" action="/updateProject.html">
+    <label for="projects">Projects</label><select name="ID" id="projects"></select>
+    <button onClick="this.form.submit(); this.disabled=true; this.value='Sending…'; ">Edit this project</button>
+</form>
+<div>
+    <a href=".">Return to front page</a>
+</div>
+</body>
+<script>
+    fetch("/projectCreator")
+        .then(function (response) {
+            return response.text();
+        }).then(function (text) {
+        document.getElementById("projects").innerHTML = text;
+    });
+</script>
+</html>
